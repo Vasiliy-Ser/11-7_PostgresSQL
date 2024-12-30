@@ -1,0 +1,112 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.2">
+  <diagram name="Page-1" id="e3a06f82-3646-2815-327d-82caf3d4e204">
+    <mxGraphModel dx="1434" dy="720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" style=";html=1;" />
+        <mxCell id="1" style=";html=1;" parent="0" />
+        <mxCell id="6a7d8f32e03d9370-15" value="Shard1_asia" style="verticalLabelPosition=top;aspect=fixed;html=1;verticalAlign=bottom;strokeColor=none;shape=mxgraph.citrix.cache_server;fillColor=#66B2FF;gradientColor=#0066CC;fontSize=14;labelPosition=center;align=center;" parent="1" vertex="1">
+          <mxGeometry x="310" y="83.75" width="71" height="97.5" as="geometry" />
+        </mxCell>
+        <mxCell id="6a7d8f32e03d9370-24" value="" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;shape=mxgraph.citrix.hq_enterprise;fillColor=#66B2FF;gradientColor=#0066CC;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="890" y="170" width="92" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="KZBotEdLe3uGk118iI16-1" value="Shard2_books_name" style="verticalLabelPosition=top;aspect=fixed;html=1;verticalAlign=bottom;strokeColor=none;shape=mxgraph.citrix.cache_server;fillColor=#66B2FF;gradientColor=#0066CC;fontSize=14;labelPosition=center;align=center;" vertex="1" parent="1">
+          <mxGeometry x="480" y="430" width="68.45" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="KZBotEdLe3uGk118iI16-2" value="Shard4_user_credentials_Europe" style="verticalLabelPosition=top;aspect=fixed;html=1;verticalAlign=bottom;strokeColor=none;shape=mxgraph.citrix.cache_server;fillColor=#66B2FF;gradientColor=#0066CC;fontSize=14;labelPosition=center;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="536.5" width="71" height="97.5" as="geometry" />
+        </mxCell>
+        <mxCell id="KZBotEdLe3uGk118iI16-3" value="Shard3_city" style="verticalLabelPosition=top;aspect=fixed;html=1;verticalAlign=bottom;strokeColor=none;shape=mxgraph.citrix.cache_server;fillColor=#66B2FF;gradientColor=#0066CC;fontSize=14;labelPosition=center;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1489" y="85.25" width="71" height="97.5" as="geometry" />
+        </mxCell>
+        <mxCell id="KZBotEdLe3uGk118iI16-4" value="" style="endArrow=none;html=1;rounded=0;entryX=0.293;entryY=0.545;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KZBotEdLe3uGk118iI16-47" target="6a7d8f32e03d9370-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="739.9850000000001" y="387.009" as="sourcePoint" />
+            <mxPoint x="1260" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KZBotEdLe3uGk118iI16-6" value="" style="endArrow=none;html=1;rounded=0;entryX=0.197;entryY=0.462;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6a7d8f32e03d9370-24" target="KZBotEdLe3uGk118iI16-49">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1210" y="420" as="sourcePoint" />
+            <mxPoint x="1275.5" y="245.68358310626706" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KZBotEdLe3uGk118iI16-28" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;aggregator&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="892" y="130" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KZBotEdLe3uGk118iI16-30" value="Shard1_users_Europe&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalLabelPosition=top;aspect=fixed;html=1;verticalAlign=bottom;strokeColor=none;shape=mxgraph.citrix.cache_server;fillColor=#66B2FF;gradientColor=#0066CC;fontSize=14;labelPosition=center;align=center;" vertex="1" parent="1">
+          <mxGeometry x="310" y="245" width="71" height="97.5" as="geometry" />
+        </mxCell>
+        <mxCell id="KZBotEdLe3uGk118iI16-32" value="" style="endArrow=none;html=1;rounded=0;entryX=0.13;entryY=0.307;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6a7d8f32e03d9370-15" target="6a7d8f32e03d9370-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="790" y="330" as="sourcePoint" />
+            <mxPoint x="524.0250000000001" y="194.24749999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KZBotEdLe3uGk118iI16-33" value="" style="endArrow=none;html=1;rounded=0;entryX=0.087;entryY=0.511;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KZBotEdLe3uGk118iI16-30" target="6a7d8f32e03d9370-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="790" y="330" as="sourcePoint" />
+            <mxPoint x="519.02" y="198.26250000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KZBotEdLe3uGk118iI16-35" value="Shard2_books_content" style="verticalLabelPosition=top;aspect=fixed;html=1;verticalAlign=bottom;strokeColor=none;shape=mxgraph.citrix.cache_server;fillColor=#66B2FF;gradientColor=#0066CC;fontSize=14;labelPosition=center;align=center;" vertex="1" parent="1">
+          <mxGeometry x="660" y="540" width="68.45" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="KZBotEdLe3uGk118iI16-36" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="520" as="sourcePoint" />
+            <mxPoint x="722.3055028463" y="406.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KZBotEdLe3uGk118iI16-37" value="" style="endArrow=none;html=1;rounded=0;entryX=0.545;entryY=0.027;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KZBotEdLe3uGk118iI16-47">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="790" y="330" as="sourcePoint" />
+            <mxPoint x="729.9749999999999" y="370.9855" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KZBotEdLe3uGk118iI16-40" value="Shard4_user_credentials_Asia" style="verticalLabelPosition=top;aspect=fixed;html=1;verticalAlign=bottom;strokeColor=none;shape=mxgraph.citrix.cache_server;fillColor=#66B2FF;gradientColor=#0066CC;fontSize=14;labelPosition=center;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1259.5" y="520.5" width="71" height="97.5" as="geometry" />
+        </mxCell>
+        <mxCell id="KZBotEdLe3uGk118iI16-41" value="Shard3_stores_income" style="verticalLabelPosition=top;aspect=fixed;html=1;verticalAlign=bottom;strokeColor=none;shape=mxgraph.citrix.cache_server;fillColor=#66B2FF;gradientColor=#0066CC;fontSize=14;labelPosition=center;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="290" width="71" height="97.5" as="geometry" />
+        </mxCell>
+        <mxCell id="KZBotEdLe3uGk118iI16-42" value="" style="endArrow=none;html=1;rounded=0;entryX=0.127;entryY=0.231;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KZBotEdLe3uGk118iI16-49" target="KZBotEdLe3uGk118iI16-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1290" y="240" as="sourcePoint" />
+            <mxPoint x="1290" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KZBotEdLe3uGk118iI16-43" value="" style="endArrow=none;html=1;rounded=0;exitX=0.458;exitY=0.564;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="KZBotEdLe3uGk118iI16-49" target="KZBotEdLe3uGk118iI16-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1330.5" y="263.5653846153846" as="sourcePoint" />
+            <mxPoint x="1290" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KZBotEdLe3uGk118iI16-44" value="" style="endArrow=none;html=1;rounded=0;exitX=0.891;exitY=0.682;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="6a7d8f32e03d9370-24" target="KZBotEdLe3uGk118iI16-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1100" y="380" as="sourcePoint" />
+            <mxPoint x="1290" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KZBotEdLe3uGk118iI16-45" value="" style="endArrow=none;html=1;rounded=0;exitX=0.268;exitY=0.159;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.674;entryY=0.705;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KZBotEdLe3uGk118iI16-2" target="6a7d8f32e03d9370-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1240" y="330" as="sourcePoint" />
+            <mxPoint x="1103" y="370.001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KZBotEdLe3uGk118iI16-48" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="KZBotEdLe3uGk118iI16-1" target="KZBotEdLe3uGk118iI16-47">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="548" y="460" as="sourcePoint" />
+            <mxPoint x="729.9749999999999" y="370.9855" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KZBotEdLe3uGk118iI16-47" value="Shard2_books_name" style="verticalLabelPosition=top;aspect=fixed;html=1;verticalAlign=bottom;strokeColor=none;shape=mxgraph.citrix.cache_server;fillColor=#66B2FF;gradientColor=#0066CC;fontSize=14;labelPosition=center;align=center;" vertex="1" parent="1">
+          <mxGeometry x="700" y="342.5" width="68.45" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="KZBotEdLe3uGk118iI16-49" value="Shard3_stores_Replica" style="verticalLabelPosition=top;aspect=fixed;html=1;verticalAlign=bottom;strokeColor=none;shape=mxgraph.citrix.cache_server;fillColor=#66B2FF;gradientColor=#0066CC;fontSize=14;labelPosition=center;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="200" width="71" height="97.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
