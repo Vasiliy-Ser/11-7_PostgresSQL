@@ -1,0 +1,124 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.2">
+  <diagram name="Page-1" id="e3a06f82-3646-2815-327d-82caf3d4e204">
+    <mxGraphModel dx="1434" dy="720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" style=";html=1;" />
+        <mxCell id="1" style=";html=1;" parent="0" />
+        <mxCell id="6a7d8f32e03d9370-13" value="" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;shape=mxgraph.citrix.router;fillColor=#66B2FF;gradientColor=#0066CC;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="499" y="182.75" width="55" height="36.5" as="geometry" />
+        </mxCell>
+        <mxCell id="6a7d8f32e03d9370-15" value="Shard1_users" style="verticalLabelPosition=top;aspect=fixed;html=1;verticalAlign=bottom;strokeColor=none;shape=mxgraph.citrix.cache_server;fillColor=#66B2FF;gradientColor=#0066CC;fontSize=14;labelPosition=center;align=center;" parent="1" vertex="1">
+          <mxGeometry x="310" y="83.75" width="71" height="97.5" as="geometry" />
+        </mxCell>
+        <mxCell id="6a7d8f32e03d9370-24" value="" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;shape=mxgraph.citrix.hq_enterprise;fillColor=#66B2FF;gradientColor=#0066CC;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="890" y="170" width="92" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="KZBotEdLe3uGk118iI16-1" value="Shard2_books" style="verticalLabelPosition=top;aspect=fixed;html=1;verticalAlign=bottom;strokeColor=none;shape=mxgraph.citrix.cache_server;fillColor=#66B2FF;gradientColor=#0066CC;fontSize=14;labelPosition=center;align=center;" vertex="1" parent="1">
+          <mxGeometry x="480" y="430" width="68.45" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="KZBotEdLe3uGk118iI16-2" value="Shard4_user_credentials" style="verticalLabelPosition=top;aspect=fixed;html=1;verticalAlign=bottom;strokeColor=none;shape=mxgraph.citrix.cache_server;fillColor=#66B2FF;gradientColor=#0066CC;fontSize=14;labelPosition=center;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="536.5" width="71" height="97.5" as="geometry" />
+        </mxCell>
+        <mxCell id="KZBotEdLe3uGk118iI16-3" value="Shard3_stores" style="verticalLabelPosition=top;aspect=fixed;html=1;verticalAlign=bottom;strokeColor=none;shape=mxgraph.citrix.cache_server;fillColor=#66B2FF;gradientColor=#0066CC;fontSize=14;labelPosition=center;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1489" y="85.25" width="71" height="97.5" as="geometry" />
+        </mxCell>
+        <mxCell id="KZBotEdLe3uGk118iI16-4" value="" style="endArrow=none;html=1;rounded=0;exitX=0.727;exitY=0.466;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.293;entryY=0.545;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KZBotEdLe3uGk118iI16-34" target="6a7d8f32e03d9370-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1210" y="420" as="sourcePoint" />
+            <mxPoint x="1260" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KZBotEdLe3uGk118iI16-5" value="" style="endArrow=none;html=1;rounded=0;entryX=0.337;entryY=0.364;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.727;exitY=0.37;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="6a7d8f32e03d9370-13" target="6a7d8f32e03d9370-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1210" y="420" as="sourcePoint" />
+            <mxPoint x="1260" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KZBotEdLe3uGk118iI16-6" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="6a7d8f32e03d9370-24" target="KZBotEdLe3uGk118iI16-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1210" y="420" as="sourcePoint" />
+            <mxPoint x="1260" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KZBotEdLe3uGk118iI16-7" value="" style="endArrow=none;html=1;rounded=0;exitX=0.63;exitY=0.648;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.545;entryY=0.384;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6a7d8f32e03d9370-24" target="KZBotEdLe3uGk118iI16-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1210" y="420" as="sourcePoint" />
+            <mxPoint x="1260" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KZBotEdLe3uGk118iI16-28" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;aggregator&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="892" y="130" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KZBotEdLe3uGk118iI16-30" value="Shard1_users_Replica&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalLabelPosition=top;aspect=fixed;html=1;verticalAlign=bottom;strokeColor=none;shape=mxgraph.citrix.cache_server;fillColor=#66B2FF;gradientColor=#0066CC;fontSize=14;labelPosition=center;align=center;" vertex="1" parent="1">
+          <mxGeometry x="310" y="245" width="71" height="97.5" as="geometry" />
+        </mxCell>
+        <mxCell id="KZBotEdLe3uGk118iI16-32" value="" style="endArrow=none;html=1;rounded=0;entryX=0.455;entryY=0.315;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6a7d8f32e03d9370-15" target="6a7d8f32e03d9370-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="790" y="330" as="sourcePoint" />
+            <mxPoint x="840" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KZBotEdLe3uGk118iI16-33" value="" style="endArrow=none;html=1;rounded=0;entryX=0.364;entryY=0.425;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KZBotEdLe3uGk118iI16-30" target="6a7d8f32e03d9370-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="790" y="330" as="sourcePoint" />
+            <mxPoint x="840" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KZBotEdLe3uGk118iI16-34" value="" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;shape=mxgraph.citrix.router;fillColor=#66B2FF;gradientColor=#0066CC;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="700" y="370" width="55" height="36.5" as="geometry" />
+        </mxCell>
+        <mxCell id="KZBotEdLe3uGk118iI16-35" value="Shard2_books_Replica" style="verticalLabelPosition=top;aspect=fixed;html=1;verticalAlign=bottom;strokeColor=none;shape=mxgraph.citrix.cache_server;fillColor=#66B2FF;gradientColor=#0066CC;fontSize=14;labelPosition=center;align=center;" vertex="1" parent="1">
+          <mxGeometry x="660" y="540" width="68.45" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="KZBotEdLe3uGk118iI16-36" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="KZBotEdLe3uGk118iI16-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="520" as="sourcePoint" />
+            <mxPoint x="840" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KZBotEdLe3uGk118iI16-37" value="" style="endArrow=none;html=1;rounded=0;entryX=0.545;entryY=0.027;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KZBotEdLe3uGk118iI16-1" target="KZBotEdLe3uGk118iI16-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="790" y="330" as="sourcePoint" />
+            <mxPoint x="840" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KZBotEdLe3uGk118iI16-38" value="" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;shape=mxgraph.citrix.router;fillColor=#66B2FF;gradientColor=#0066CC;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="360" width="55" height="36.5" as="geometry" />
+        </mxCell>
+        <mxCell id="KZBotEdLe3uGk118iI16-39" value="" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;shape=mxgraph.citrix.router;fillColor=#66B2FF;gradientColor=#0066CC;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1275.5" y="230" width="55" height="36.5" as="geometry" />
+        </mxCell>
+        <mxCell id="KZBotEdLe3uGk118iI16-40" value="Shard4_user_credentials_Replica" style="verticalLabelPosition=top;aspect=fixed;html=1;verticalAlign=bottom;strokeColor=none;shape=mxgraph.citrix.cache_server;fillColor=#66B2FF;gradientColor=#0066CC;fontSize=14;labelPosition=center;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1259.5" y="520.5" width="71" height="97.5" as="geometry" />
+        </mxCell>
+        <mxCell id="KZBotEdLe3uGk118iI16-41" value="Shard3_stores_Replica" style="verticalLabelPosition=top;aspect=fixed;html=1;verticalAlign=bottom;strokeColor=none;shape=mxgraph.citrix.cache_server;fillColor=#66B2FF;gradientColor=#0066CC;fontSize=14;labelPosition=center;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="290" width="71" height="97.5" as="geometry" />
+        </mxCell>
+        <mxCell id="KZBotEdLe3uGk118iI16-42" value="" style="endArrow=none;html=1;rounded=0;entryX=0.127;entryY=0.231;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.109;exitY=0.384;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="KZBotEdLe3uGk118iI16-39" target="KZBotEdLe3uGk118iI16-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1240" y="330" as="sourcePoint" />
+            <mxPoint x="1290" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KZBotEdLe3uGk118iI16-43" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="KZBotEdLe3uGk118iI16-39" target="KZBotEdLe3uGk118iI16-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1240" y="330" as="sourcePoint" />
+            <mxPoint x="1290" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KZBotEdLe3uGk118iI16-44" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="KZBotEdLe3uGk118iI16-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1100" y="380" as="sourcePoint" />
+            <mxPoint x="1290" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KZBotEdLe3uGk118iI16-45" value="" style="endArrow=none;html=1;rounded=0;exitX=0.268;exitY=0.159;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.6;entryY=0.274;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KZBotEdLe3uGk118iI16-2" target="KZBotEdLe3uGk118iI16-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1240" y="330" as="sourcePoint" />
+            <mxPoint x="1290" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
