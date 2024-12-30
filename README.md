@@ -79,12 +79,21 @@
 
 ![answer1](https://github.com/Vasiliy-Ser/11.7_PostgresSQL/blob/ec20ac5a5002c0ec0b604019d165118cc33cd0d5/img/img1.png)
 
+
 ---
 
-### Задание 3. 
+
+Дополнительные задания (со звёздочкой*)
+
+Эти задания дополнительные, то есть не обязательные к выполнению, и никак не повлияют на получение вами зачёта по этому домашнему заданию. Вы можете их выполнить, если хотите гл>
+
+
+### Задание 3*. 
 
  
 Решение...
+
+Разработано для горизонтального шардинга
 
 ![answer3](https://github.com/Vasiliy-Ser/11.7_PostgresSQL/blob/ec20ac5a5002c0ec0b604019d165118cc33cd0d5/docker/docker-compose-postgres.yml)
 
@@ -92,48 +101,11 @@
 
 ![answer4](https://github.com/Vasiliy-Ser/11.7_PostgresSQL/blob/ec20ac5a5002c0ec0b604019d165118cc33cd0d5/img/11.7.31.png)
 
-![answer4](https://github.com/Vasiliy-Ser/11.7_PostgresSQL/blob/ec20ac5a5002c0ec0b604019d165118cc33cd0d5/img/11.7.32.png)
+![answer5](https://github.com/Vasiliy-Ser/11.7_PostgresSQL/blob/ec20ac5a5002c0ec0b604019d165118cc33cd0d5/img/11.7.32.png)
 
-![answer4](https://github.com/Vasiliy-Ser/11.7_PostgresSQL/blob/ec20ac5a5002c0ec0b604019d165118cc33cd0d5/img/11.7.33.png)
+![answer6](https://github.com/Vasiliy-Ser/11.7_PostgresSQL/blob/ec20ac5a5002c0ec0b604019d165118cc33cd0d5/img/11.7.33.png)
 
-![answer4](https://github.com/Vasiliy-Ser/11.7_PostgresSQL/blob/ec20ac5a5002c0ec0b604019d165118cc33cd0d5/img/11.7.34.png)
+![answer7](https://github.com/Vasiliy-Ser/11.7_PostgresSQL/blob/ec20ac5a5002c0ec0b604019d165118cc33cd0d5/img/11.7.34.png)
 
-![answer4](https://github.com/Vasiliy-Ser/11.7_PostgresSQL/blob/ec20ac5a5002c0ec0b604019d165118cc33cd0d5/img/11.7.35.png)
+![answer8](https://github.com/Vasiliy-Ser/11.7_PostgresSQL/blob/ec20ac5a5002c0ec0b604019d165118cc33cd0d5/img/11.7.35.png)
 
-
-
----
-
-### Задание 4. 
-
-
-
-
-Решение...
-
-
-`При необходимости прикрепитe сюда скриншоты
-
-![answer4]()
-
-
----
-
-Дополнительные задания (со звёздочкой*)
-
-Эти задания дополнительные, то есть не обязательные к выполнению, и никак не повлияют на получение вами зачёта по этому домашнему заданию. Вы можете их выполнить, если хотите глубже разобраться в материале.
-
-### Задание 5*. 
-
-
-
-
-
-Решение...
-
-`При необходимости прикрепитe сюда скриншоты
-
-
-
-
- 
