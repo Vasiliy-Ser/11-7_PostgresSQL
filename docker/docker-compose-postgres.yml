@@ -1,0 +1,75 @@
+services:
+  shard1_users:
+    image: postgres:latest
+    container_name: shard1_users
+    environment:
+      POSTGRES_USER: ${SHARD1_USER}
+      POSTGRES_PASSWORD: ${SHARD1_PASSWORD}
+      POSTGRES_DB: ${SHARD1_DB}
+    volumes:
+      - ./sql/shard1_users.sql:/docker-entrypoint-initdb.d/init.sql
+    ports:
+      - "5432:5432"
+    networks:
+      - postgres
+
+  shard2_books:
+    image: postgres:latest
+    container_name: shard2_books
+    environment:
+      POSTGRES_USER: ${SHARD2_USER}
+      POSTGRES_PASSWORD: ${SHARD2_PASSWORD}
+      POSTGRES_DB: ${SHARD2_DB}
+    volumes:
+      - ./sql/shard2_books.sql:/docker-entrypoint-initdb.d/init.sql
+    ports:
+      - "5433:5432"
+    networks:
+      - postgres
+
+  shard3_stores:
+    image: postgres:latest
+    container_name: shard3_stores
+    environment:
+      POSTGRES_USER: ${SHARD3_USER}
+      POSTGRES_PASSWORD: ${SHARD3_PASSWORD}
+      POSTGRES_DB: ${SHARD3_DB}
+    volumes:
+      - ./sql/shard3_stores.sql:/docker-entrypoint-initdb.d/init.sql
+    ports:
+      - "5434:5432"
+    networks:
+      - postgres
+
+  shard4_credentials:
+    image: postgres:latest
+    container_name: shard4_credentials
+    environment:
+      POSTGRES_USER: ${SHARD4_USER}
+      POSTGRES_PASSWORD: ${SHARD4_PASSWORD}
+      POSTGRES_DB: ${SHARD4_DB}
+    volumes:
+      - ./sql/shard4_credentials.sql:/docker-entrypoint-initdb.d/init.sql
+    ports:
+      - "5435:5432"
+    networks:
+      - postgres
+
+  aggregator:
+    image: postgres:latest
+    container_name: aggregator
+    environment:
+      POSTGRES_USER: ${AGGREGATOR_USER}
+      POSTGRES_PASSWORD: ${AGGREGATOR_PASSWORD}
+      POSTGRES_DB: ${AGGREGATOR_DB}
+    volumes:
+      - ./sql/aggregator.sql:/docker-entrypoint-initdb.d/init.sql
+    ports:
+      - "5436:5432"
+    networks:
+      - postgres
+
+networks:
+  postgres:
+    name: postgres
+    driver: bridge
